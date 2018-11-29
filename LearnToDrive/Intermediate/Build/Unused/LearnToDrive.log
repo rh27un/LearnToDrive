@@ -1,4 +1,30 @@
-﻿  Cleaning LearnToDriveEditor Binaries...
-UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
-                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(39,5): error MSB3073: The command "D:\Unreal\Engine\UE_4.20\Engine\Build\BatchFiles\Clean.bat LearnToDriveEditor Win64 Development "D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\LearnToDrive.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for LearnToDriveEditor (no existing makefile)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for LearnToDriveEditor
+    Running UnrealHeaderTool "C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\LearnToDrive.uproject" "C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\LearnToDriveEditor\Development\LearnToDriveEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LearnToDriveEditor in 9.6656469 seconds
+  Building 18 actions with 8 processes...
+    PCLaunch.rc
+    SharedPCH.Engine.cpp
+    LearnToDrive.init.gen.cpp
+    LearnToDriveGameModeBase.gen.cpp
+    LearnToDrive.cpp
+    LearnToDriveGameModeBase.cpp
+    GolfCharacter.gen.cpp
+    GolfCharacter.cpp
+    MyLearnToDriveGameMode.cpp
+    MyLearnToDriveGameMode.gen.cpp
+    GolfStart.gen.cpp
+    GolfBall.gen.cpp
+    BallCamera.gen.cpp
+    GolfStart.cpp
+    BallCamera.cpp
+    GolfBall.cpp
+    UE4Editor-LearnToDrive.lib
+       Creating library C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\UE4Editor-LearnToDrive.lib and object C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\UE4Editor-LearnToDrive.exp
+    UE4Editor-LearnToDrive.dll
+       Creating library C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\UE4Editor-LearnToDrive.suppressed.lib and object C:\Temp\Rhun\Golf\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\UE4Editor-LearnToDrive.suppressed.exp
+  Deploying LearnToDriveEditor Win64 Development...
+  Total build time: 104.12 seconds (Parallel executor: 47.65 seconds)

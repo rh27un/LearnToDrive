@@ -1,0 +1,553 @@
+﻿Log file open, 11/29/18 15:13:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LearnToDrive
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.301522
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.368s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 780
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.29-15.13.53:193][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.29-15.13.53:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.29-15.13.53:218][  0]LogHAL: Display: Platform has ~ 16 GB [17080971264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.29-15.13.53:218][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.29-15.13.53:218][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.29-15.13.53:219][  0]LogInit: Computer: AMTX222-20
+[2018.11.29-15.13.53:219][  0]LogInit: User: trj1crt
+[2018.11.29-15.13.53:219][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.29-15.13.53:219][  0]LogInit: High frequency timer resolution =3.507505 MHz
+[2018.11.29-15.13.53:220][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.29-15.13.53:220][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.29-15.13.53:220][  0]LogMemory: Process Physical Memory: 99.74 MB used, 99.74 MB peak
+[2018.11.29-15.13.53:220][  0]LogMemory: Process Virtual Memory: 91.42 MB used, 91.42 MB peak
+[2018.11.29-15.13.53:220][  0]LogMemory: Physical Memory: 4370.18 MB used,  11919.50 MB free, 16289.68 MB total
+[2018.11.29-15.13.53:220][  0]LogMemory: Virtual Memory: 4640.30 MB used,  11919.50 MB free, 134217728.00 MB total
+[2018.11.29-15.13.53:243][  0]LogInit: Using OS detected language (en-GB).
+[2018.11.29-15.13.53:243][  0]LogInit: Using OS detected locale (en-GB).
+[2018.11.29-15.13.53:244][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.11.29-15.13.53:628][  0]LogStreaming: Display: Took  0.386s to InitEngineTextLocalization.
+[2018.11.29-15.13.53:628][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.29-15.13.53:681][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.29-15.13.53:681][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.29-15.13.53:904][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.29-15.13.53:904][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.29-15.13.53:959][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2018.11.29-15.13.53:959][  0]LogD3D11RHI:       3029/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.29-15.13.53:963][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.29-15.13.53:963][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.29-15.13.53:963][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.29-15.13.53:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.29-15.13.53:969][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.29-15.13.53:969][  0]LogWindows: EnumDisplayDevices:
+[2018.11.29-15.13.53:969][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2018.11.29-15.13.53:970][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:1)
+[2018.11.29-15.13.53:970][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2018.11.29-15.13.53:971][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2018.11.29-15.13.53:971][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.29-15.13.53:971][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2018.11.29-15.13.53:971][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.11.29-15.13.53:971][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.11.29-15.13.53:971][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2018.11.29-15.13.54:012][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.29-15.13.54:029][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.29-15.13.54:032][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Intermediate/Shaders/WorkingDirectory/7432/).
+[2018.11.29-15.13.54:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/trj1crt/AppData/Local/Temp/UnrealShaderWorkingDir/F037976245F8277591A207B978B36957/'.
+[2018.11.29-15.13.54:686][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.29-15.13.54:705][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.29-15.13.54:721][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.29-15.13.54:739][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.29-15.13.54:763][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.29-15.13.54:782][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.29-15.13.54:800][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.29-15.13.54:822][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.29-15.13.54:830][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:928][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.29-15.13.54:930][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.29-15.13.54:997][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.29-15.13.54:997][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.29-15.13.55:030][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.29-15.13.55:030][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.29-15.13.55:043][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.29-15.13.55:056][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.29-15.13.55:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.29-15.13.55:083][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.29-15.13.55:094][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.29-15.13.55:094][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.29-15.13.55:180][  0]LogXGEController: Cleaning working directory: C:/Users/trj1crt/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.29-15.13.55:180][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.29-15.13.55:180][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.29-15.13.55:180][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.29-15.13.55:974][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.29-15.13.56:082][  0]LogDerivedDataCache: Loaded boot cache 0.11s 87MB C:/Users/trj1crt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.29-15.13.56:083][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/trj1crt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.29-15.13.56:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.29-15.13.56:083][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.29-15.13.56:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.29-15.13.56:083][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.29-15.13.56:095][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.29-15.13.56:108][  0]LogDerivedDataCache: Using Local data cache path C:/Users/trj1crt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.29-15.13.56:108][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.29-15.13.56:108][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.29-15.13.56:127][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.29-15.13.56:128][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.29-15.13.56:128][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.29-15.13.56:212][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.11.29-15.13.56:602][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.29-15.13.56:667][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.29-15.13.56:673][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.29-15.13.56:673][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.29-15.13.56:673][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.29-15.13.56:673][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.29-15.13.56:791][  0]LogNetVersion: LearnToDrive 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 922375125)
+[2018.11.29-15.13.57:455][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.237313 seconds
+[2018.11.29-15.13.57:462][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.29-15.13.57:462][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.29-15.13.57:462][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.29-15.13.58:395][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.29-15.13.58:410][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.29-15.13.58:626][  0]SourceControl: Source control is disabled
+[2018.11.29-15.13.58:626][  0]SourceControl: Source control is disabled
+[2018.11.29-15.13.58:628][  0]SourceControl: Source control is disabled
+[2018.11.29-15.13.58:629][  0]SourceControl: Source control is disabled
+[2018.11.29-15.13.58:813][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.29-15.13.58:862][  0]LogOcInput: OculusInput pre-init called
+[2018.11.29-15.13.58:926][  0]LogEngine: Initializing Engine...
+[2018.11.29-15.13.58:927][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.29-15.13.58:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.29-15.13.58:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.29-15.13.58:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.29-15.13.58:928][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.29-15.13.59:145][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.29-15.13.59:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.29-15.13.59:188][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.13.59:248][  0]LogInit: FAudioDevice initialized.
+[2018.11.29-15.13.59:249][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.29-15.13.59:495][  0]LogDerivedDataCache: Saved boot cache 0.25s 87MB C:/Users/trj1crt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.29-15.13.59:517][  0]LogInit: Texture streaming: Enabled
+[2018.11.29-15.13.59:542][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.29-15.13.59:569][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.29-15.13.59:804][  0]LogInit: Transaction tracking system initialized
+[2018.11.29-15.13.59:851][  0]BlueprintLog: New page: Editor Load
+[2018.11.29-15.13.59:959][  0]LocalizationService: Localization service is disabled
+[2018.11.29-15.14.00:431][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.29-15.14.00:431][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.29-15.14.00:431][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.29-15.14.00:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.29-15.14.00:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.29-15.14.00:432][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/' took 0.01s
+[2018.11.29-15.14.00:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.29-15.14.00:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.29-15.14.00:609][  0]SourceControl: Source control is disabled
+[2018.11.29-15.14.00:610][  0]Cmd: MAP LOAD FILE="../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.29-15.14.00:610][  0]LogEditorServer: Warning: Can't find file '../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/TestMap.umap'
+[2018.11.29-15.14.00:610][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.29-15.14.00:712][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.82ms to complete.
+[2018.11.29-15.14.00:712][  0]LogFileHelpers: Loading map 'TestMap' took 0.102
+[2018.11.29-15.14.01:593][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.14.01:618][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.14.01:628][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.14.01:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.14.01:740][  0]LogCollectionManager: Loaded 0 collections in 0.003725 seconds
+[2018.11.29-15.14.01:947][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Saved/Collections/' took 0.01s
+[2018.11.29-15.14.01:947][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/Developers/trj1crt/Collections/' took 0.01s
+[2018.11.29-15.14.01:947][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/Collections/' took 0.01s
+[2018.11.29-15.14.01:947][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.29-15.14.01:961][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2578 classes and 605 folders.
+[2018.11.29-15.14.02:033][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.29-15.14.04:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.29-15.14.04:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.29-15.14.05:213][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.29-15.14.05:216][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.29-15.14.05:301][  0]LogSlate: Took 0.023597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.29-15.14.05:655][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.29-15.14.05:992][  0]LogSlate: Took 0.028968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.29-15.14.06:144][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-15.14.06:191][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.11.29-15.14.06:224][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.29-15.14.06:224][  0]LogLoad: (Engine Initialization) Total time: 15.75 seconds
+[2018.11.29-15.14.06:224][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.29-15.14.06:252][  0]LogActor: Warning: GolfStart /Engine/Transient.World_0:PersistentLevel.GolfStart_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.14.06:296][  0]LogActor: Warning: GolfBall /Engine/Transient.World_1:PersistentLevel.GolfBall_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.14.06:359][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.11.29-15.14.06:533][  2]LogAssetRegistry: Asset discovery search completed in 10.3427 seconds
+[2018.11.29-15.14.06:562][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.29-15.14.06:562][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.11.29-15.14.27:847][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-15.14.30:220][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-15.14.32:888][823]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.29-15.14.33:285][842]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LearnToDrive
+[2018.11.29-15.14.33:285][842]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.29-15.14.33:285][842]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.29-15.14.33:285][842]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.29-15.14.33:285][842]LogTemp: BranchPath = AMTX222-20/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = AMTX222-20/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.29-15.14.33:441][858]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\trj1crt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.29-15.14.35:761][103]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.29-15.14.40:451][617]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.29-15.14.40:453][617]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.29-15.14.41:348][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.15.00:303][961]LogLinker: Warning: Can't find file '/Game/Maps/TestMap_BuiltData'
+[2018.11.29-15.15.00:303][961]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap_BuiltData' while loading ../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/Maps/TestMap.umap.
+[2018.11.29-15.15.00:303][961]LoadErrors: Error: /Game/Maps/TestMap : Can't find file for asset. /Game/Maps/TestMap_BuiltData
+[2018.11.29-15.15.00:310][961]LogLinker: Warning: Can't find file '/Game/Maps/TestMap_BuiltData'
+[2018.11.29-15.15.00:310][961]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap_BuiltData' while loading ../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/Maps/TestMap.umap.
+[2018.11.29-15.15.00:506][961]LogLinker: Warning: Can't find file '/Game/Maps/TestMap_BuiltData'
+[2018.11.29-15.15.00:506][961]LoadErrors: Failed to load /Game/Maps/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
+[2018.11.29-15.15.00:507][961]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap_BuiltData' while loading NULL.
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.11.29-15.15.00:572][961]LogTexture: Display: Building textures: Grass0130_1_270 (BGRA8, 270X270)
+[2018.11.29-15.15.00:572][961]LogMaterial: Display: Missing cached shader map for material NewGrass, compiling. 
+[2018.11.29-15.15.00:693][961]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-15.15.00:693][961]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-15.15.00:693][961]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-15.15.00:693][961]LogMaterial: Display: Missing cached shader map for material NewGrass, compiling. 
+[2018.11.29-15.15.00:850][961]LogMaterial: Display: Missing cached shader map for material Start, compiling. 
+[2018.11.29-15.15.00:991][961]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.29-15.15.01:031][961]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.15.01:134][961]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/TestMap.TestMap
+[2018.11.29-15.15.01:185][961]Cmd: MAP LOAD FILE="../../../../../../Temp/Rhun/Golf/LearnToDrive/LearnToDrive/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.29-15.15.01:185][961]LightingResults: New page: Lighting Build
+[2018.11.29-15.15.01:190][961]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2018.11.29-15.15.01:190][961]LoadErrors: New page: Loading map: TestMap.umap
+[2018.11.29-15.15.01:191][961]MapCheck: New page: Map Check
+[2018.11.29-15.15.01:191][961]LightingResults: New page: Lighting Build
+[2018.11.29-15.15.03:452][961]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.29-15.15.03:546][961]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.29-15.15.03:677][961]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.88ms to complete.
+[2018.11.29-15.15.03:682][961]LogFileHelpers: Loading map 'TestMap' took 2.499
+[2018.11.29-15.15.08:441][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.15.08:532][425]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.15.08:581][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.15.08:613][425]PIE: New page: PIE session: TestMap (29 Nov 2018 15:15:08)
+[2018.11.29-15.15.08:613][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.15.08:939][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.325642s)
+[2018.11.29-15.15.08:941][425]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.15.08:941][425]LogPlayLevel: PIE: World Init took: (0.001593s)
+[2018.11.29-15.15.08:941][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.327743s)
+[2018.11.29-15.15.08:970][425]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.15.09:069][425]LogInit: FAudioDevice initialized.
+[2018.11.29-15.15.11:291][425]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.11.29-15.15.11:636][425]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.15.11:685][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.15.11
+[2018.11.29-15.15.11:700][425]LogWorld: Bringing up level for play took: 0.060927
+[2018.11.29-15.15.11:771][425]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.11.29-15.15.11:806][425]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 2.727
+[2018.11.29-15.15.14:478][698]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.29-15.15.14:573][709]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.29-15.15.17:799][ 71]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.29-15.15.18:164][106]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-15.15.18:622][144]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-15.15.20:537][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.15.20:591][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.15.20:632][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.15.20:674][361]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.29-15.15.21:175][409]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-15.15.26:050][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.15.26:150][966]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.15.26:173][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.15.26:174][966]PIE: New page: PIE session: TestMap (29 Nov 2018 15:15:26)
+[2018.11.29-15.15.26:174][966]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.15.26:361][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186921s)
+[2018.11.29-15.15.26:362][966]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.15.26:362][966]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2018.11.29-15.15.26:362][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.187995s)
+[2018.11.29-15.15.26:388][966]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.15.26:399][966]LogInit: FAudioDevice initialized.
+[2018.11.29-15.15.26:429][966]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.15.26:461][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.15.26
+[2018.11.29-15.15.26:462][966]LogWorld: Bringing up level for play took: 0.032512
+[2018.11.29-15.15.26:476][966]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.602
+[2018.11.29-15.15.35:758][ 74]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.16.39:934][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.16.39:974][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.16.40:003][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.16.40:038][774]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.29-15.16.42:278][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.16.42:394][ 56]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.16.42:409][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.16.42:410][ 56]PIE: New page: PIE session: TestMap (29 Nov 2018 15:16:42)
+[2018.11.29-15.16.42:410][ 56]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.16.42:587][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177660s)
+[2018.11.29-15.16.42:588][ 56]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.16.42:589][ 56]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2018.11.29-15.16.42:589][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.178783s)
+[2018.11.29-15.16.42:617][ 56]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.16.42:627][ 56]LogInit: FAudioDevice initialized.
+[2018.11.29-15.16.42:657][ 56]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.16.42:686][ 56]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.16.42
+[2018.11.29-15.16.42:687][ 56]LogWorld: Bringing up level for play took: 0.029343
+[2018.11.29-15.16.42:701][ 56]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.378
+[2018.11.29-15.16.49:635][883]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.17.16:182][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.16:227][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.17.16:251][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.16:284][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.29-15.17.18:904][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.17.19:871][499]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.17.19:890][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.17.19:890][499]PIE: New page: PIE session: TestMap (29 Nov 2018 15:17:19)
+[2018.11.29-15.17.19:890][499]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.17.20:024][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133897s)
+[2018.11.29-15.17.20:025][499]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.17.20:025][499]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.11.29-15.17.20:025][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.134799s)
+[2018.11.29-15.17.20:050][499]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.17.20:059][499]LogInit: FAudioDevice initialized.
+[2018.11.29-15.17.20:089][499]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.17.20:121][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.17.20
+[2018.11.29-15.17.20:122][499]LogWorld: Bringing up level for play took: 0.032353
+[2018.11.29-15.17.20:135][499]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 1.057
+[2018.11.29-15.17.22:542][782]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.17.34:855][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.34:896][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.17.34:921][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.34:961][261]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.29-15.17.36:270][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.17.36:395][432]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.17.36:414][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.17.36:414][432]PIE: New page: PIE session: TestMap (29 Nov 2018 15:17:36)
+[2018.11.29-15.17.36:414][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.17.36:578][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164002s)
+[2018.11.29-15.17.36:579][432]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.17.36:579][432]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2018.11.29-15.17.36:579][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.165003s)
+[2018.11.29-15.17.36:608][432]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.17.36:618][432]LogInit: FAudioDevice initialized.
+[2018.11.29-15.17.36:651][432]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.17.36:688][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.17.36
+[2018.11.29-15.17.36:688][432]LogWorld: Bringing up level for play took: 0.036149
+[2018.11.29-15.17.36:701][432]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.377
+[2018.11.29-15.17.40:932][935]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.17.47:843][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.47:882][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.17.47:909][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.17.47:962][766]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.29-15.17.48:884][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.17.48:992][889]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.17.49:007][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.17.49:007][889]PIE: New page: PIE session: TestMap (29 Nov 2018 15:17:49)
+[2018.11.29-15.17.49:007][889]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.17.49:171][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163814s)
+[2018.11.29-15.17.49:172][889]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.17.49:172][889]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.11.29-15.17.49:172][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.164669s)
+[2018.11.29-15.17.49:197][889]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.17.49:208][889]LogInit: FAudioDevice initialized.
+[2018.11.29-15.17.49:237][889]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.17.49:269][889]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.17.49
+[2018.11.29-15.17.49:269][889]LogWorld: Bringing up level for play took: 0.031402
+[2018.11.29-15.17.49:283][889]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.204
+[2018.11.29-15.17.51:265][122]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.18.04:870][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.18.04:908][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.18.04:935][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.18.04:975][757]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.29-15.18.09:185][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.18.09:293][274]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.18.09:310][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.18.09:311][274]PIE: New page: PIE session: TestMap (29 Nov 2018 15:18:09)
+[2018.11.29-15.18.09:311][274]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.18.09:479][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169683s)
+[2018.11.29-15.18.09:480][274]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.18.09:480][274]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2018.11.29-15.18.09:480][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.170514s)
+[2018.11.29-15.18.09:507][274]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.18.09:517][274]LogInit: FAudioDevice initialized.
+[2018.11.29-15.18.09:546][274]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.18.09:578][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.18.09
+[2018.11.29-15.18.09:579][274]LogWorld: Bringing up level for play took: 0.032663
+[2018.11.29-15.18.09:592][274]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.514
+[2018.11.29-15.18.11:313][476]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.11.29-15.18.19:025][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.18.19:068][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-15.18.19:096][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-15.18.19:130][403]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.29-15.18.20:064][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.11.29-15.18.20:349][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-15.18.20:607][529]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-15.18.20:626][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-15.18.20:626][529]PIE: New page: PIE session: TestMap (29 Nov 2018 15:18:20)
+[2018.11.29-15.18.20:626][529]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2018.11.29-15.18.20:768][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141927s)
+[2018.11.29-15.18.20:768][529]LogAIModule: Creating AISystem for world TestMap
+[2018.11.29-15.18.20:769][529]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2018.11.29-15.18.20:769][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.142936s)
+[2018.11.29-15.18.20:795][529]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-15.18.20:804][529]LogInit: FAudioDevice initialized.
+[2018.11.29-15.18.20:835][529]LogLoad: Game class is 'LearnToDriveGameModeBase'
+[2018.11.29-15.18.20:864][529]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.29-15.18.20
+[2018.11.29-15.18.20:865][529]LogWorld: Bringing up level for play took: 0.028785
+[2018.11.29-15.18.20:878][529]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap -0.2
+[2018.11.29-15.18.22:466][715]LogActor: Warning: MyGolfBall1_C /Game/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.MyGolfBall1_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily

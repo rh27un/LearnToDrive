@@ -49,6 +49,7 @@ void ABallCamera::Angle(float value)
 {
 
 	FRotator deltaRot = FRotator(value, 0.f, 0.f);
+	if(arrow)
 	arrow->AddRelativeRotation(deltaRot);
 	
 }
@@ -62,7 +63,7 @@ void ABallCamera::Aim(float value)
 void ABallCamera::HitBall() {
 	
 	if (ball->IsPowerMode()) {
-		arrow->DestroyComponent();
+		//arrow->DestroyComponent();
 	}
 	ball->HitBall();
 }

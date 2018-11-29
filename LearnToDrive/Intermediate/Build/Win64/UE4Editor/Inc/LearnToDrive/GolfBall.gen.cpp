@@ -23,7 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	LEARNTODRIVE_API UFunction* Z_Construct_UFunction_AGolfBall_SetForwardVector();
-	ENGINE_API UClass* Z_Construct_UClass_UPhysicalMaterial_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 // End Cross Module References
 	void AGolfBall::StaticRegisterNativesAGolfBall()
 	{
@@ -96,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 		{ "ModuleRelativePath", "GolfBall.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGolfBall_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGolfBall, "OnHit", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00C20401, sizeof(GolfBall_eventOnHit_Parms), Z_Construct_UFunction_AGolfBall_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGolfBall_OnHit_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGolfBall_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGolfBall_OnHit_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGolfBall_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGolfBall, "OnHit", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00C80401, sizeof(GolfBall_eventOnHit_Parms), Z_Construct_UFunction_AGolfBall_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGolfBall_OnHit_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGolfBall_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGolfBall_OnHit_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AGolfBall_OnHit()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -150,9 +150,9 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GolfballMat_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GolfMat_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GolfballMat;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GolfMat;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swingSpeed_MetaData[];
 #endif
@@ -174,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_LearnToDrive,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGolfBall_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGolfBall_OnHit, "OnHit" }, // 659707885
+		{ &Z_Construct_UFunction_AGolfBall_OnHit, "OnHit" }, // 60850051
 		{ &Z_Construct_UFunction_AGolfBall_SetForwardVector, "SetForwardVector" }, // 1044418610
 	};
 #if WITH_METADATA
@@ -184,12 +184,12 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfballMat_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfMat_MetaData[] = {
 		{ "Category", "Golf" },
 		{ "ModuleRelativePath", "GolfBall.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfballMat = { UE4CodeGen_Private::EPropertyClass::Object, "GolfballMat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AGolfBall, GolfballMat), Z_Construct_UClass_UPhysicalMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfballMat_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfballMat_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfMat = { UE4CodeGen_Private::EPropertyClass::Object, "GolfMat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AGolfBall, GolfMat), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfMat_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfMat_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGolfBall_Statics::NewProp_swingSpeed_MetaData[] = {
 		{ "Category", "Golf" },
@@ -212,7 +212,7 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGolfBall_Statics::NewProp_powerMod = { UE4CodeGen_Private::EPropertyClass::Float, "powerMod", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000010001, 1, nullptr, STRUCT_OFFSET(AGolfBall, powerMod), METADATA_PARAMS(Z_Construct_UClass_AGolfBall_Statics::NewProp_powerMod_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGolfBall_Statics::NewProp_powerMod_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGolfBall_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfballMat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGolfBall_Statics::NewProp_GolfMat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGolfBall_Statics::NewProp_swingSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGolfBall_Statics::NewProp_maxPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGolfBall_Statics::NewProp_powerMod,
@@ -240,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeGolfBall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGolfBall, 113191320);
+	IMPLEMENT_CLASS(AGolfBall, 2763078666);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGolfBall(Z_Construct_UClass_AGolfBall, &AGolfBall::StaticClass, TEXT("/Script/LearnToDrive"), TEXT("AGolfBall"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGolfBall);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

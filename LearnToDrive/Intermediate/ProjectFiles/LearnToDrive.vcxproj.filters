@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\LearnToDrive.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{FAD8F0A1-3DC6-444B-873A-A58AF4FBDDA9}</UniqueIdentifier>
+			<UniqueIdentifier>{9B32363F-D174-460B-850C-C31605C8277A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LearnToDrive.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{383CC5B9-0C3E-4479-BCC1-5EA4A55B6E43}</UniqueIdentifier>
+			<UniqueIdentifier>{592B8AB8-6B52-4BBB-8103-ED0516835CBB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\LearnToDrive">
-			<UniqueIdentifier>{F4355867-68D2-44C9-BBF1-CC614966ECBC}</UniqueIdentifier>
+			<UniqueIdentifier>{1C0211A3-FB9C-44F0-91FC-87CF8FC53912}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\LearnToDrive\BallCamera.cpp">
 			<Filter>Source\LearnToDrive</Filter>

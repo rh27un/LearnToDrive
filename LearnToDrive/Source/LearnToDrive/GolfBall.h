@@ -22,18 +22,21 @@ protected:
 	virtual void BeginPlay() override;
 
 	bool bPowerMode = false;
+	bool bRolling = false;
 
 	FVector strikeDirection;
 
 	float golfPower;
 	float strikeTime;
+	UFUNCTION()
+		void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	AActor* playerPawn;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION()
-	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-
+	
 	UFUNCTION(BlueprintCallable)
 		void SetForwardVector(FVector fwd);
 	
@@ -47,7 +50,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Golf)
 		float swingSpeed;
 	UPROPERTY(EditDefaultsOnly, Category = Golf)
-		UPhysicalMaterial* GolfballMat;
+		UMaterialInterface* GolfMat;
 
 	bool IsPowerMode();
 };

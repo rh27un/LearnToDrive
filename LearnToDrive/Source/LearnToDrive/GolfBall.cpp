@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "GolfBall.h"
-
+#include "Kismet/GameplayStatics.h"
 
 //press space, place ball, take away character control (do this in golfstart)
 	//probably cycle states from first person, aiming, and hitting.
@@ -27,19 +27,22 @@ AGolfBall::AGolfBall()
 		staticMeshComponent->SetWorldScale3D(FVector(scale, scale, scale));
 		staticMeshComponent->SetCollisionProfileName(TEXT("BlockAll"));
 		staticMeshComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+		staticMeshComponent->SetNotifyRigidBodyCollision(true);
 		staticMeshComponent->OnComponentHit.AddDynamic(this, &AGolfBall::OnHit);
 		staticMeshComponent->SetSimulatePhysics(true);
-		//staticMeshComponent->SetPhysMaterialOverride(GolfballMat);
-		staticMeshComponent->SetLinearDamping(0.9f);
+		staticMeshComponent->SetLinearDamping(1.f);
 	}
+	RootComponent = staticMeshComponent;
 }
 
 // Called when the game starts or when spawned
 void AGolfBall::BeginPlay()
 {
 	Super::BeginPlay();
-	strikeDirection = FVector(0.f, 1.f, 1.f);
+	strikeDirection = FVector(0.f, 0.f, 1.f);
 	golfPower = 0.f;
+	staticMeshComponent->SetMaterial(0, GolfMat);
+	playerPawn = UGameplayStatics::GetPlayerCharacter(this, 0);
 }
 
 // Called every frame
@@ -55,10 +58,22 @@ void AGolfBall::Tick(float DeltaTime)
 				HitBall();
 			}
 		}
+	} if (bRolling) {
+		//
 	}
 }
 
-void AGolfBall::OnHit(UPrimitiveComponent * HitComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit) {
+void AGolfBall::OnHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComponent, FVector NormalImpulse, const FHitResult & Hit) {
+	
+	if (!OtherActor->ActorHasTag("Start")) {
+		if(GetVelocity().Size() < 100.f)
+			staticMeshComponent->AddForce(-GetVelocity() * GetVelocity().Size() / 10);
+		if (GetVelocity().Size() < 20.f) {
+			staticMeshComponent->SetSimulatePhysics(false);
+			FViewTargetTransitionParams Params;
+			GetWorld()->GetFirstPlayerController()->SetViewTarget(playerPawn, Params);
+		}
+	}
 }
 
 void AGolfBall::SetForwardVector(FVector fwd) {
@@ -68,13 +83,17 @@ void AGolfBall::SetForwardVector(FVector fwd) {
 void AGolfBall::HitBall() {
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Space Pressed"));
 	//
-	if (GetVelocity().IsNearlyZero(0.01f)) {
+	
+	if (GetVelocity().Size() < 10.f) {
 		if (!bPowerMode) {
+			bRolling = false;
 			bPowerMode = true;
 			strikeTime = 0.f;
+			staticMeshComponent->SetSimulatePhysics(false);
 		} else {
+			staticMeshComponent->SetSimulatePhysics(true);
 			bPowerMode = false;
-			staticMeshComponent->AddImpulse(strikeDirection * powerMod * golfPower);
+			staticMeshComponent->AddImpulse(strikeDirection * powerMod);// *golfPower);
 		}
 	}
 }
