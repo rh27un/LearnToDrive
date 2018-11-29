@@ -25,11 +25,13 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	bool bPowerMode = false;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	void Angle(float value);
 	void Aim(float value);
-	
+	void HitBall();
 };

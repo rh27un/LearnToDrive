@@ -38,8 +38,6 @@ AGolfBall::AGolfBall()
 void AGolfBall::BeginPlay()
 {
 	Super::BeginPlay();
-	EnableInput(GetWorld()->GetFirstPlayerController());
-	InputComponent->BindAction("Hit Ball", IE_Pressed, this, &AGolfBall::HitBall);
 	strikeDirection = FVector(0.f, 1.f, 1.f);
 	golfPower = 0.f;
 }
@@ -79,5 +77,9 @@ void AGolfBall::HitBall() {
 			staticMeshComponent->AddImpulse(strikeDirection * powerMod * golfPower);
 		}
 	}
+}
+
+bool AGolfBall::IsPowerMode() {
+	return bPowerMode;
 }
 

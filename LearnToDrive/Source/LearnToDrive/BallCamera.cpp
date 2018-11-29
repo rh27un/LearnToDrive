@@ -31,6 +31,7 @@ void ABallCamera::BeginPlay()
 	EnableInput(GetWorld()->GetFirstPlayerController());
 	InputComponent->BindAxis("Forward", this, &ABallCamera::Angle);
 	InputComponent->BindAxis("Right", this, &ABallCamera::Aim);
+	InputComponent->BindAction("Hit Ball", IE_Pressed, this, &ABallCamera::HitBall);
 }
 
 // Called every frame
@@ -39,6 +40,7 @@ void ABallCamera::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (ball) {
 		SetActorLocation(ball->GetActorLocation());
+		if(arrow)
 		ball->SetForwardVector(arrow->GetForwardVector());
 	}
 }
@@ -57,3 +59,10 @@ void ABallCamera::Aim(float value)
 	SetActorRotation(GetActorRotation() + deltaRot);
 }
 
+void ABallCamera::HitBall() {
+	
+	if (ball->IsPowerMode()) {
+		arrow->DestroyComponent();
+	}
+	ball->HitBall();
+}

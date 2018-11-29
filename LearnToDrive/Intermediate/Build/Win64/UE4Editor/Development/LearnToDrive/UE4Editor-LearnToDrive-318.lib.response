@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LearnToDrive-318.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\LearnToDriveEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\BallCamera.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfBall.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfCharacter.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfStart.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\LearnToDrive.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\LearnToDriveGameModeBase.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\MyLearnToDriveGameMode.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\BallCamera.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfBall.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfCharacter.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\GolfStart.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\LearnToDrive.init.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\LearnToDriveGameModeBase.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\MyLearnToDriveGameMode.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\PCLaunch.rc.res"
+/OUT:"D:\Shitty UE4 Games I Make\GolfGame\Drive\LearnToDrive\LearnToDrive\Intermediate\Build\Win64\UE4Editor\Development\LearnToDrive\UE4Editor-LearnToDrive-318.lib"

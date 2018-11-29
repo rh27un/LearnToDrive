@@ -48,4 +48,6 @@ public:
 		float swingSpeed;
 	UPROPERTY(EditDefaultsOnly, Category = Golf)
 		UPhysicalMaterial* GolfballMat;
+
+	bool IsPowerMode();
 };

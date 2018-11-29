@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\LearnToDrive.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FAD8F0A1-3DC6-444B-873A-A58AF4FBDDA9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LearnToDrive.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\LearnToDriveEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{383CC5B9-0C3E-4479-BCC1-5EA4A55B6E43}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\LearnToDrive">
+			<UniqueIdentifier>{F4355867-68D2-44C9-BBF1-CC614966ECBC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\LearnToDrive\BallCamera.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\BallCamera.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearnToDrive\GolfBall.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\GolfBall.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearnToDrive\GolfCharacter.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\GolfCharacter.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearnToDrive\GolfStart.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\GolfStart.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\LearnToDrive\LearnToDrive.Build.cs">
+			<Filter>Source\LearnToDrive</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\LearnToDrive\LearnToDrive.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\LearnToDrive.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearnToDrive\LearnToDriveGameModeBase.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\LearnToDriveGameModeBase.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LearnToDrive\MyLearnToDriveGameMode.cpp">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LearnToDrive\MyLearnToDriveGameMode.h">
+			<Filter>Source\LearnToDrive</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
